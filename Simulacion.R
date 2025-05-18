@@ -1,5 +1,5 @@
 #Investigacion Operativa - Simulacion
-#Matias A. Salgado Mancilla
+
 #1)
 #Genero semilla
 set.seed(2021)
