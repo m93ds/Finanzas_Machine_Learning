@@ -1,8 +1,8 @@
 #Investigacion Operativa - Programacion Lineal
-#Matias A. Salgado Mancilla
+
 library(lpSolve) # Cargamos el paquete
 
-# Matriz de la funci髇 objetivo
+# Matriz de la funci贸n objetivo
 objetivo <- c(10,11,19,15)
 
 # Matriz de las restricciones 
@@ -14,10 +14,10 @@ restricciones <- matrix(c(1,2.5,1.5,1.8,
 # Lado derecho de las restricciones 
 derecho <- c(5.9, 0, 0.75, 2.75)
 
-# Direcci髇 de las restricciones
+# Direcci贸n de las restricciones
 direccion <- c("<=",">",">",">=")
 
-# Soluci髇 髉tima 
+# Soluci贸n 贸ptima 
 optimo <- lp(direction = "max", 
              objective.in = objetivo,
              const.mat = restricciones,
