@@ -1,5 +1,4 @@
 #Investigacion Operativa - Cadenas de Markov
-#Matias A. Salgado Mancilla
 
 #Cargo paquetes
 library(markovchain)
@@ -20,7 +19,7 @@ MatrizTrans
 #Creo objeto de Markov chain
 AB <- new("markovchain",transitionMatrix = MatrizTrans)
 
-# Creo diagrama de transición
+# Creo diagrama de transiciÃ³n
 plotmat(t(AB@transitionMatrix),
         relsize = 0.90,
         box.type = 'diamond', shadow.size = 0, txt.col = "blue",txt.font = 4,
@@ -41,5 +40,5 @@ summary(AB)
 steadyStates(AB)
 AB^2 #2 meses
 AB^6 #6 meses
-AB^12 #1 año
+AB^12 #1 aÃ±o
 
